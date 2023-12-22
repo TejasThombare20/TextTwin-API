@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { getServerSession } from "next-auth";
 import { notFound } from "next/navigation";
 
-export const meatadata: Metadata = {
+export const metadata: Metadata = {
   title: "TextTwin API | Dashboard",
   description: "Free and open source text TextTwin API.",
 };
