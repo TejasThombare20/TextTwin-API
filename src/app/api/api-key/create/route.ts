@@ -8,14 +8,9 @@ import { nanoid } from "nanoid";
 import { z } from "zod";
 import { withMethods } from "@/lib/api-middlewares/with-methodes";
 
-const handler = async (
-  req: NextApiRequest,
-  res: NextApiResponse<CreateApiData>
-) => {
+const handler = async () => {
   try {
-    // const user = await getServerSession(req, res, authOptions).then(
-    //   (res) => res?.user
-    // );
+   
     const session = await getServerSession(authOptions);
     const user = session?.user;
 
