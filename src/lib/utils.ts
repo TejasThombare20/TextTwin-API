@@ -35,7 +35,7 @@ export function constructMetaData({
       creator: "@TejasTh371168321",
     },
     icons,
-    metadataBase: new URL("https://query-quill.vercel.app"),
+    metadataBase: new URL("https://text-twin-api.vercel.app"),
     themeColor: "#FFF",
     ...(noIndex && {
       robots: {
